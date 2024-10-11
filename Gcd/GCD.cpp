@@ -1,20 +1,21 @@
-#include <iostream> 
+#include <iostream>
 using namespace std;
 
- int Gcd(int n1,int n2){
-    
-    for(int i= min(n2,n1);i>=1;i--){
-        if( n1 % i==0 && n2 % i==0){
-            return i;  
-            
-        }
+int printGfg(int N)
+{
+
+    if (N > 0)
+    {
+        printGfg(N - 1);
+        cout << "GFG ";
     }
-   return 1;
 }
 
-int main(){
+int main()
+{
 
-   
-    cout<<Gcd(20,40);
-    return 0;
+    int N;
+    cout<<"no is:";
+    cin >> N;
+    printGfg(N);
 }

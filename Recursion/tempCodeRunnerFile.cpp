@@ -1,1 +1,1 @@
- Solution s;
+long long
