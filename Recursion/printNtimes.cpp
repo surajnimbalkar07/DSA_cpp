@@ -1,3 +1,6 @@
+//Print numbers from 1 to n without the help of loops. 
+//You only need to complete the function printNos() that takes N as parameter and prints number from 1 to N recursively.
+
 #include <iostream>
 using namespace std;
 
