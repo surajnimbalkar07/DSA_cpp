@@ -1,3 +1,4 @@
+//Given an integer n, calculate the sum of series 13 + 23 + 33 + 43 + … till n-th term.
 #include <iostream>
 using namespace std;
 
