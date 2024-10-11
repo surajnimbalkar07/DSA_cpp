@@ -14,7 +14,7 @@ void reverseArray(vector<int> &arr) {
         
         reverseArray(subArray);
         
-        for(int i=i;i<=arr.size()-1;++i){
+        for(int i=1;i<arr.size()-1;++i){
             arr[i]=subArray[i-1];
         }
 }
